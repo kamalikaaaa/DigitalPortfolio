@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Simple web Development Template</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+ }
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: powderpink;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: #85adad;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: #ff99c2;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 100%;
+			margin: auto;
+                        background-color: #ffff99;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+
+		}
+
+		
+		
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px ;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: violet;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#web">INTRODUCTION</a></li>
+			<li><a href="#program">ROLE OF WORLD WAR 1</a></li>
+			<li><a href="#course">SALT SATYAGRAHA</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web"><center>MAHATMA GANDHI</center></h1>
+<h2 id="program">
+				    INTRODUCTION
+				</h2>
+				<p class="text-small">
+					Mohandas Karamchand Gandhi(2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world.
+
+Born and raised in a Hindu family in coastal Gujarat, Gandhi trained in the law at the Inner Temple, London, and was called to the bar at age 22 in June 1891. After two uncertain years in India, where he was unable to start a successful law practice, he moved to South Africa in 1893 to represent an Indian merchant in a lawsuit. He went on to live in South Africa for 21 years. It was here that Gandhi raised a family and first employed nonviolent resistance in a campaign for civil rights. In 1915, aged 45, he returned to India and soon set about organising peasants, farmers, and urban labourers to protest against excessive land-tax and discrimination.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h2 id="program">
+				    ROLE IN WORLD WAR 1
+				</h2>
+				<p class="text-small">
+				
+                          In April 1918, during the latter part of World War I, the Viceroy invited Gandhi to a War Conference in Delhi.Gandhi agreed to actively recruit Indians for the war effort.In contrast to the Zulu War of 1906 and the outbreak of World War I in 1914, when he recruited volunteers for the Ambulance Corps, this time Gandhi attempted to recruit combatants. In a June 1918 leaflet entitled "Appeal for Enlistment", Gandhi wrote "To bring about such a state of things we should have the ability to defend ourselves, that is, the ability to bear arms and to use them... If we want to learn the use of arms with the greatest possible despatch, it is our duty to enlist ourselves in the army." He did, however, stipulate in a letter to the Viceroy's private secretary that he "personally will not kill or injure anybody, friend or foe."
+
+                      Gandhi's war recruitment campaign brought into question his consistency on nonviolence. Gandhi's private secretary noted that "The question of the consistency between his creed of 'Ahimsa' (nonviolence) and his recruiting campaign was raised not only then but has been discussed ever since."
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+	&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  					
+<h2 id="course
+">
+			SALT SATYAGRAHA	   
+				</h2>
+
+			<p class="sectionSubTag text-small">
+				The main reason for selecting salt as the main symbols for the Satyagraha is the Salt Act of 1882. The salt Act gave the British government the power to collection ,manufacturer and handling of the salt to the government depot and levied a tax on salt and violation of which can lead to criminal offence .The matter if concern in levying a tax was that the people living in coast get salt freely due to the process of evaporation if the salty sea water but in accordance of this law they were not allowed to use that and where forced to purchase the same from the government.
+
+Salt is a daily use item and selecting it as a symbol of resistance would help in integration of all sections of society irrespective of their caste and this will make a large section of population a part of the struggle. According to Gandhi , salt is used by everyone and hence can resonate with all classes of the society .
+
+By choosing Salt as a means of the struggle Gandhi wanted to make a unified mass struggle.
+
+Salt Satyagraha was a combined effort while Gandhiji started the March to Dandi the other Congress leaders made arrangements for the Satyagraha like the enrollment volunteers , collected funds and did a number of tours in villages to gain support.
+
+The salt law was broken across the country post the Dandi Beach. Some of the areas are Tamil Nadu ,where C.Rajagopalachari was the lead and did a march from Trichinopoly to Vedaranniyam on the Tanjore Coast.In Malabar the leader K.Kelappan and in the North-East the group of satyagrahis went from Sylhet to assam to break the salt law.
+			</p>
+
+
+		</div>
+
+		
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
